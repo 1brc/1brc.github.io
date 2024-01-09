@@ -1,3 +1,8 @@
+# https://vitepress.dev/
+**/.vitepress/dist
+**/.vitepress/cache
+
+#region https://github.com/github/gitignore/blob/main/Node.gitignore
 # Logs
 logs
 *.log
@@ -128,3 +133,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+#endregion

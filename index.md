@@ -6,53 +6,56 @@ hero:
   name: "1BRC"
   text: "1 Billion Row Challenge"
   tagline: Calculate the min, max, and average of <b>1 billion</b> measurements
-  image: ./assets/hero.png
+  image: /hero.png
   actions:
     - theme: brand
-      text: Choose a language 👇
+      text: Accept the challenge
+      link: "#the-challenge"
+    # - theme: brand
+    #   text: Choose a language 👇
     - theme: alt
       text: Original blog post
       link: https://www.morling.dev/blog/one-billion-row-challenge/
 
 features:
   - icon:
-      src: ./assets/java.png
+      src: /java.png
     title: 1BRC in Java
     details: The original 1BRC language! 🎉
     link: https://github.com/gunnarmorling/1brc#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/c.png
+      src: /c.png
     title: 1BRC in C/C++
     details: Try your hand at processing 12 GB of text using low-level C code! ⚡
     link: https://github.com/dannyvankooten/1brc#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/python.png
+      src: /python.png
     title: 1BRC in Python
     details: Use the power of snakes to read 1 billion lines of text! 🐍
     link: https://github.com/ifnesi/1brc#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/go.png
+      src: /go.png
     title: 1BRC in Go
     details: Go get started to see if you can average 1B measurements in Go! 🐹
     link: https://github.com/AlexanderYastrebov/1brc#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/javascript.png
+      src: /javascript.png
     title: 1BRC in JavaScript
     details: Wrangle with the world's most popular programming language to process 1B rows! 💻
     link: https://github.com/Edgar-P-yan/1brc-nodejs-bun#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/rust.png
+      src: /rust.png
     title: 1BRC in Rust
     details: Embrace your inner iron crab and read a ginormous file in Rust! 🦀
     link: https://github.com/tumdum/1brc#submitting
     linkText: Submit your solution!
   - icon:
-      src: ./assets/zig.png
+      src: /zig.png
     title: 1BRC in Zig
     details: Use this new language to process 1B rows of text! 🧩
     link: https://github.com/candrewlee14/1brc-zig#submitting
@@ -64,8 +67,7 @@ import HomeContent from './.vitepress/components/HomeContent.vue'
 </script>
 
 <style>
-/* First action button has no action! Remove its button-like style. */
-.VPHomeHero .actions .action:first-of-type .VPButton {
+.VPHomeHero .actions .action .VPButton:not(:link) {
   background-color: transparent;
 }
 </style>
@@ -122,6 +124,8 @@ Palembang;38.8;39.9;41.0
 ```
 
 Oh, and this `input.txt` is different for each submission since it's generated on-demand. So no hard-coding the results! 😉
+
+[Choose a language from the cards at the top of this page to get started! 🚀](#)
 
 ## Rules and limits
 

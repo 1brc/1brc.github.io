@@ -61,7 +61,7 @@ export default defineConfig({
     // https://github.com/vuejs/vitepress/issues/1037
     footer: {
       message:
-        'Released under the <a href="https://github.com/1brc/1brc.github.io/blob/main/LICENSE">0BSD License</a>.',
+        'Released under the <a href="https://github.com/1brc/1brc.github.io/blob/main/LICENSE">MIT License</a>.',
       copyright: "Copyright © 2023 The One Billion Row Challenge",
     },
   },

@@ -99,6 +99,8 @@ Choose one of the languages listed above to see the language-specific leaderboar
 
 [Java]: https://github.com/gunnarmorling/1brc
 
+You can view language-specific leaderboards on each language's competition page.
+
 ## The challenge
 
 Your mission, should you choose to accept it, is to write a program that retrieves temperature measurement values from a text file and calculates the min, mean, and max temperature per weather station. There's just one caveat: the file has 1,000,000,000 rows! That's more than 10 GB of data! 😱

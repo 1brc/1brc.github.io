@@ -10,21 +10,23 @@ on:
       - .github/**
       - "!.github/workflows/deploy-pages.yml"
   workflow_dispatch:
-concurrency: ${{ github.workflow }}
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 jobs:
   deploy-pages:
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deploy-pages.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: latest
           cache: npm
       - run: npm ci
       - id: configure-pages
@@ -32,6 +34,7 @@ jobs:
       - run: npm run build
         env:
           BASE_URL: ${{ steps.configure-pages.outputs.base_url }}/
+          BASE_PATH: ${{ steps.configure-pages.outputs.base_path }}/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist

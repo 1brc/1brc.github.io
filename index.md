@@ -61,6 +61,12 @@ features:
     details: Use this new language to process 1B rows of text! 🧩
     link: https://github.com/candrewlee14/1brc-zig#submitting
     linkText: Submit your solution!
+  - icon:
+      src: /php.png
+    title: 1BRC in PHP
+    details: ElePHPants are not as slow as one might think! 🐘
+    link: https://github.com/realFlowControl/1brc
+    linkText: Submit your solution!
 ---
 
 <style>

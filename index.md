@@ -67,6 +67,12 @@ features:
     details: ElePHPants are not as slow as one might think! 🐘
     link: https://github.com/realFlowControl/1brc
     linkText: Submit your solution!
+  - icon:
+      src: /CSharp.png
+    title: 1BRC in C#
+    details: Sharpen your wide span<T>(ing) skills and refresh your memory<T>
+    link: https://github.com/nietras/1brc.cs
+    linkText: Submit your solution!
 ---
 
 <style>

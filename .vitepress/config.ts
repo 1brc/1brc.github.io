@@ -5,16 +5,13 @@ export default defineConfig({
   // Surprised this isn't the default. 🤷‍♂️
   srcExclude: ["**/README.md", "**/CONTRIBUTING.md"],
 
-  // https://vitejs.dev/config/
-  vite: {},
-
   // https://vitepress.dev/guide/sitemap-generation
   sitemap: {
     hostname: "https://1brc.dev",
   },
 
-  title: "1BRC",
-  description: "1 Billion Row Challenge",
+  title: "1 Billion Row Challenge",
+  description: "Calculate the min, max, and average of 1 billion measurements",
 
   head: [
     // https://github.com/vuejs/vitepress/issues/560

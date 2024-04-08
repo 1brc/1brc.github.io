@@ -4,8 +4,7 @@ layout: home
 pageClass: my-index-page
 
 hero:
-  name: "1BRC"
-  text: "1 Billion Row Challenge"
+  name: "1 Billion Row Challenge"
   tagline: Calculate the min, max, and average of <b>1 billion</b> measurements
   image: /hero.png
   actions:

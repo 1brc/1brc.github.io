@@ -59,7 +59,7 @@ export default defineConfig({
     footer: {
       message:
         'Released under the <a href="https://github.com/1brc/1brc.github.io/blob/main/LICENSE">MIT License</a>.',
-      copyright: "Copyright © 2023 The One Billion Row Challenge",
+      copyright: "Copyright © 2024 The One Billion Row Challenge",
     },
   },
 });

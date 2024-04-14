@@ -4,27 +4,18 @@ layout: home
 pageClass: my-index-page
 
 hero:
-  name: "1BRC"
-  text: "1 Billion Row Challenge"
+  name: "1 Billion Row Challenge"
   tagline: Calculate the min, max, and average of <b>1 billion</b> measurements
   image: /hero.png
   actions:
     - theme: brand
       text: Accept the challenge
       link: "#the-challenge"
-    # - theme: brand
-    #   text: Choose a language 👇
     - theme: alt
       text: Original blog post
       link: https://www.morling.dev/blog/one-billion-row-challenge/
 
 features:
-  - icon:
-      src: /java.png
-    title: 1BRC in Java
-    details: The original 1BRC language! 🎉
-    link: https://github.com/gunnarmorling/1brc#submitting
-    linkText: Submit your solution!
   - icon:
       src: /c.png
     title: 1BRC in C/C++
@@ -73,6 +64,12 @@ features:
     details: Sharpen your wide span&lt;T&gt;(ing) skills and refresh your memory&lt;T&gt;
     link: https://github.com/nietras/1brc.cs
     linkText: Submit your solution!
+  - icon:
+      src: /java.png
+    title: <s>1BRC in Java</s> <small><i>closed</i></small>
+    details: <s>The original 1BRC language! 🎉</s>
+    link: https://github.com/gunnarmorling/1brc#submitting
+    linkText: View historical submissions
 ---
 
 <style>

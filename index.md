@@ -70,7 +70,7 @@ features:
   - icon:
       src: /CSharp.png
     title: 1BRC in C#
-    details: Sharpen your wide span<T>(ing) skills and refresh your memory<T>
+    details: Sharpen your wide span&lt;T&gt;(ing) skills and refresh your memory&lt;T&gt;
     link: https://github.com/nietras/1brc.cs
     linkText: Submit your solution!
 ---

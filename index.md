@@ -70,6 +70,12 @@ features:
     details: <s>The original 1BRC language! 🎉</s>
     link: https://github.com/gunnarmorling/1brc#submitting
     linkText: View historical submissions
+  - icon:
+      src: /julia.png
+    title: <s>1BRC in Julia</s> <small><i>closed</i></small>
+    details: <s>The original 1BRC language! 🎉</s>
+    link: https://github.com/Jafagervik/1BRC
+    linkText: View historical submissions
 ---
 
 <style>
@@ -86,19 +92,19 @@ Choose one of the languages listed above to see the language-specific leaderboar
 
 _TODO: Make sure this is up-to-date_
 
-|     |       Time | Solution                                                                                                                     | Language | Author                                             |
-| --- | ---------: | ---------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------- |
-| 1.  |     6.159s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_royvanrijn.java)    | [Java](https://github.com/gunnarmorling/1brc)   | [royvanrijn](https://github.com/royvanrijn)        |
-| 2.  |     6.532s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_thomaswue.java)     | [Java](https://github.com/gunnarmorling/1brc)   | [Thomas Wuerthinger](https://github.com/thomaswue) |
-| 3.  |     7.620s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_merykitty.java)     | [Java](https://github.com/gunnarmorling/1brc)   | [Quan Anh Mai](https://github.com/merykitty)       |
-| 4.  |     9.062s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_obourgain.java)     | [Java](https://github.com/gunnarmorling/1brc)   | [obourgain](https://github.com/obourgain)          |
-| 5.  |     9.338s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_ebarlas.java)       | [Java](https://github.com/gunnarmorling/1brc)   | [Elliot Barlas](https://github.com/ebarlas)        |
-| 6.  |    10.589s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_artsiomkorzun.java) | [Java](https://github.com/gunnarmorling/1brc)   | [Artsiom Korzun](https://github.com/artsiomkorzun) |
-| 7.  |    10.613s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_spullara.java)      | [Java](https://github.com/gunnarmorling/1brc)   | [Sam Pullara](https://github.com/spullara)         |
-| 8.  |    11.038s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_asun.java)          | [Java](https://github.com/gunnarmorling/1brc)   | [Andrew Sun](https://github.com/as-com)            |
-| 9.  |    11.222s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_isolgpus.java)      | [Java](https://github.com/gunnarmorling/1brc)   | [Jamie Stansfield](https://github.com/isolgpus)    |
-| 10. |    13.277s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_yavuztas.java)      | [Java](https://github.com/gunnarmorling/1brc)   | [Yavuz Tas](https://github.com/yavuztas)           |
-|     | 4m 13.449s | [link](https://github.com/gunnarmorling/onebrc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage.java)             | [Java](https://github.com/gunnarmorling/1brc)   | _Reference implementation_                         |
+|     |       Time | Solution                                                                                                                     | Language                                      | Author                                             |
+| --- | ---------: | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | -------------------------------------------------- |
+| 1.  |     6.159s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_royvanrijn.java)    | [Java](https://github.com/gunnarmorling/1brc) | [royvanrijn](https://github.com/royvanrijn)        |
+| 2.  |     6.532s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_thomaswue.java)     | [Java](https://github.com/gunnarmorling/1brc) | [Thomas Wuerthinger](https://github.com/thomaswue) |
+| 3.  |     7.620s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_merykitty.java)     | [Java](https://github.com/gunnarmorling/1brc) | [Quan Anh Mai](https://github.com/merykitty)       |
+| 4.  |     9.062s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_obourgain.java)     | [Java](https://github.com/gunnarmorling/1brc) | [obourgain](https://github.com/obourgain)          |
+| 5.  |     9.338s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_ebarlas.java)       | [Java](https://github.com/gunnarmorling/1brc) | [Elliot Barlas](https://github.com/ebarlas)        |
+| 6.  |    10.589s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_artsiomkorzun.java) | [Java](https://github.com/gunnarmorling/1brc) | [Artsiom Korzun](https://github.com/artsiomkorzun) |
+| 7.  |    10.613s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_spullara.java)      | [Java](https://github.com/gunnarmorling/1brc) | [Sam Pullara](https://github.com/spullara)         |
+| 8.  |    11.038s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_asun.java)          | [Java](https://github.com/gunnarmorling/1brc) | [Andrew Sun](https://github.com/as-com)            |
+| 9.  |    11.222s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_isolgpus.java)      | [Java](https://github.com/gunnarmorling/1brc) | [Jamie Stansfield](https://github.com/isolgpus)    |
+| 10. |    13.277s | [link](https://github.com/gunnarmorling/1brc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage_yavuztas.java)      | [Java](https://github.com/gunnarmorling/1brc) | [Yavuz Tas](https://github.com/yavuztas)           |
+|     | 4m 13.449s | [link](https://github.com/gunnarmorling/onebrc/blob/main/src/main/java/dev/morling/onebrc/CalculateAverage.java)             | [Java](https://github.com/gunnarmorling/1brc) | _Reference implementation_                         |
 
 You can view language-specific leaderboards on each language's competition page.
 

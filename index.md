@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Accept the challenge
-      link: "#the-challenge"
+      link: "#💪-the-challenge"
     - theme: alt
       text: Original blog post
       link: https://www.morling.dev/blog/one-billion-row-challenge/

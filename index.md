@@ -159,7 +159,7 @@ Some languages have special instructions but in general here's what you can expe
 
 1. Create a fork of the 1BRC repository for your language on your own GitHub profile. This will let you submit your solution via a pull request.
 
-2. Somehow create a new implementation file in the repository. This will vary by language. For example in JavaScript you might create a new `src/<usernamme>.js` file while in C++ you might make a new `src/<username>.cpp` file. It's recommended to copy the default reference solution to get started and then modify it from there.
+2. Somehow create a new implementation file in the repository. This will vary by language. For example in JavaScript you might create a new `src/<username>.js` file while in C++ you might make a new `src/<username>.cpp` file. It's recommended to copy the default reference solution to get started and then modify it from there.
 
 3. Make that implementation fast. Really fast.
 
